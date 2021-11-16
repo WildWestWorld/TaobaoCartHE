@@ -1,724 +1,720 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>购物车</title>
-		<meta name="viewport"
-			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <head>
+    <meta charset="utf-8" />
+    <title>购物车</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/taobaoStyle.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  </head>
 
-		<link rel="stylesheet" type="text/css" href="./css/taobaoStyle.css" />
+  <body>
+    <div id="app">
+      <!-- //顶部 -->
+      <div class="page-header">
+        <div id="cart_sticky_fixed_bar" class="title-opts hasNativeBar">
+          <h2 class="title">购物车(71)</h2>
+          <div class="opts">
+            <span class="opt manage">管理</span>
+          </div>
+        </div>
 
-	</head>
+        <div class="head-bar no-empty">
+          <p class="info">共71件宝贝</p>
+        </div>
+      </div>
 
-	<body>
-		<!-- //顶部 -->
-		<div class="page-header">
-			<div id="cart_sticky_fixed_bar" class="title-opts hasNativeBar">
-				<h2 class="title">购物车(71)</h2>
+      <!-- //内容 -->
+      <div class="page-content has-list">
+        <div class="globa_l">
+          <div id="extendBlock_1" class="extendBlock">
+            <!-- 上半部分 -->
+            <div id="bundle_s_2894473266" class="dinamicx-card-group">
+              <div class="tpl-wrapper">
+                <div class="FrameLayout">
+                  <div class="LinearLayout">
+                    <div class="FrameLayout_2">
+                      <div class="LinearLayout_2">
+                        <div class="FrameLayout_3">
+                          <div class="view"></div>
+                          <div class="checkBox">
+                            <div class="circleIcon"></div>
+                          </div>
+                        </div>
 
-				<div class="opts">
-					<span class="opt manage">管理</span>
-				</div>
-			</div>
+                        <!-- //图标 -->
+                        <div class="skycatIcon">
+                          <div class="skycatIconimg">
+                            <img
+                              class="IconSetting"
+                              src="https://img.alicdn.com/imgextra/i4/O1CN01nI8GIp1jD07VvBtc4_!!6000000004513-2-tps-66-66.png_40x40q90_.webp"
+                            />
+                          </div>
+                        </div>
 
-			<div class="head-bar no-empty ">
-				<p class="info">
-					共71件宝贝
-				</p>
-			</div>
-		</div>
+                        <!-- 店名 -->
+                        <div class="textView">
+                          <span class="shopname"> 小奥汀旗舰店 </span>
+                        </div>
 
-		<!-- //内容 -->
-		<div class="page-content has-list">
-			<div class="globa_l">
-				<div id="extendBlock_1" class="extendBlock">
-					<!-- 上半部分 -->
-					<div id="bundle_s_2894473266" class="dinamicx-card-group">
-						<div class="tpl-wrapper">
-							<div class="FrameLayout">
-								<div class="LinearLayout">
-									<div class="FrameLayout_2">
-										<div class="LinearLayout_2">
-											<div class="FrameLayout_3">
-												<div class="view"></div>
-												<div class="checkBox">
-													<div class="circleIcon"></div>
-												</div>
-											</div>
+                        <!-- 店面旁边的箭头图标 -->
+                        <div class="arrowIcon">
+                          <div class="arrowIconImg">
+                            <img
+                              target="arrowImg"
+                              src="https://img.alicdn.com/tfs/TB1uSOhKIfpK1RjSZFOXXa6nFXa-11-18.png_24x24q90_.webp"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- //下半部分 -->
+            <div class="bottom">
+              <div class="tpl-wrapper_bottom">
+                <div class="FrameLayout_Bottom_1">
+                  <div target="contentContainer" class="FrameLayout_Container">
+                    <div class="goodsshow_Container_1">
+                      <div class="goodsshow_Container_2">
+                        <div target="goodsshow_Container_3">
+                          <div class="showLeft">
+                            <!-- 	//内容左复选框 -->
+                            <div showLeft_btnContain_1 class="showLeft_btn">
+                              <div class="showLeft_btnContain_2">
+                                <div showLeft_checkbox class="showLeft_checkbox">
+                                  <div class="showCheckbox"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 内容图片 -->
+                            <div showLeft_Img_Container1 class="showLeft_Img_Container1">
+                              <div class="showLeft_Img_Container2">
+                                <div class="showLeft_Img"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="showRight">
+                            <div showRight_Container1 class="showRight_Container1">
+                              <div class="showRight_topContainer1">
+                                <div showRight_topContainer2 class="showRight_topContainer2">
+                                  <div showRight_goodsnameContain="">
+                                    <span class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
+                                  </div>
 
-											<!-- //图标 -->
-											<div class="skycatIcon">
-												<div class="skycatIconimg">
-													<img class="IconSetting"
-														src="https://img.alicdn.com/imgextra/i4/O1CN01nI8GIp1jD07VvBtc4_!!6000000004513-2-tps-66-66.png_40x40q90_.webp">
-												</div>
-											</div>
+                                  <div FrameContainer_1>
+                                    <div>
+                                      <div>
+                                        <div class="textContainer">
+                                          <span>01自然灰;0.12g</span>
+                                        </div>
+                                        <div class="downImgContainer">
+                                          <div>
+                                            <img
+                                              src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
+                                              alt=""
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ShowRight_MContain">
+                                <!-- 天猫无忧购 -->
+                                <div>
+                                  <div>
+                                    <div class="ShowRight_MtextContainer">
+                                      <div>
+                                        <span>天猫无忧购</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- 限购 -->
+                                <div class="ShowRight_MbContainer">
+                                  <div>
+                                    <div>
+                                      <div class="Limit">
+                                        <span>限购20件</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ShowRight_BContainer">
+                                  <div class="price">
+                                    <div>
+                                      <span>￥59</span>
+                                    </div>
+                                  </div>
+                                  <!-- 数量 -->
+                                  <div class="quantity">
+                                    <div class="sub">
+                                      <div>
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="num">
+                                      <div class="numImg">
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div class="numInput">
+                                        <input type="text" value="1" />
+                                      </div>
+                                    </div>
+                                    <div class="add">
+                                      <div>
+                                        <div class="addImg">
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                            alt=""
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-											<!-- 店名 -->
-											<div class="textView">
-												<span class="shopname">
-													小奥汀旗舰店
-												</span>
-											</div>
+            <!-- //下半部分 -->
+            <div class="bottom">
+              <div class="tpl-wrapper_bottom">
+                <div class="FrameLayout_Bottom_1">
+                  <div target="contentContainer" class="FrameLayout_Container">
+                    <div class="goodsshow_Container_1">
+                      <div class="goodsshow_Container_2">
+                        <div target="goodsshow_Container_3">
+                          <div class="showLeft">
+                            <!-- 	//内容左复选框 -->
+                            <div showLeft_btnContain_1 class="showLeft_btn">
+                              <div class="showLeft_btnContain_2">
+                                <div showLeft_checkbox class="showLeft_checkbox">
+                                  <div class="showCheckbox"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 内容图片 -->
+                            <div showLeft_Img_Container1 class="showLeft_Img_Container1">
+                              <div class="showLeft_Img_Container2">
+                                <div class="showLeft_Img"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="showRight">
+                            <div showRight_Container1 class="showRight_Container1">
+                              <div class="showRight_topContainer1">
+                                <div showRight_topContainer2 class="showRight_topContainer2">
+                                  <div showRight_goodsnameContain="">
+                                    <span class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
+                                  </div>
 
-											<!-- 店面旁边的箭头图标 -->
-											<div class="arrowIcon">
-												<div class="arrowIconImg">
-													<img target="arrowImg"
-														src="https://img.alicdn.com/tfs/TB1uSOhKIfpK1RjSZFOXXa6nFXa-11-18.png_24x24q90_.webp">
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- //下半部分 -->
-					<div class="bottom">
-						<div class="tpl-wrapper_bottom">
-							<div class="FrameLayout_Bottom_1">
-								<div target="contentContainer" class="FrameLayout_Container">
-									<div class="goodsshow_Container_1">
-										<div class="goodsshow_Container_2">
-											<div target="goodsshow_Container_3">
-												<div class="showLeft">
-													<!-- 	//内容左复选框 -->
-													<div showLeft_btnContain_1 class="showLeft_btn">
-														<div class="showLeft_btnContain_2">
-															<div showLeft_checkbox class="showLeft_checkbox">
-																<div class="showCheckbox"></div>
-															</div>
-														</div>
-													</div>
-													<!-- 内容图片 -->
-													<div showLeft_Img_Container1 class="showLeft_Img_Container1">
-														<div class="showLeft_Img_Container2">
-															<div class="showLeft_Img"></div>
-														</div>
-													</div>
-												</div>
-												<div class="showRight">
-													<div showRight_Container1 class="showRight_Container1">
-														<div class="showRight_topContainer1">
-															<div showRight_topContainer2
-																class="showRight_topContainer2">
+                                  <div FrameContainer_1>
+                                    <div>
+                                      <div>
+                                        <div class="textContainer">
+                                          <span>01自然灰;0.12g</span>
+                                        </div>
+                                        <div class="downImgContainer">
+                                          <div>
+                                            <img
+                                              src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
+                                              alt=""
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ShowRight_MContain">
+                                <!-- 天猫无忧购 -->
+                                <div>
+                                  <div>
+                                    <div class="ShowRight_MtextContainer">
+                                      <div>
+                                        <span>天猫无忧购</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- 限购 -->
+                                <div class="ShowRight_MbContainer">
+                                  <div>
+                                    <div>
+                                      <div class="Limit">
+                                        <span>限购20件</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ShowRight_BContainer">
+                                  <div class="price">
+                                    <div>
+                                      <span>￥59</span>
+                                    </div>
+                                  </div>
+                                  <!-- 数量 -->
+                                  <div class="quantity">
+                                    <div class="sub">
+                                      <div>
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="num">
+                                      <div class="numImg">
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div class="numInput">
+                                        <input type="text" value="1" />
+                                      </div>
+                                    </div>
+                                    <div class="add">
+                                      <div>
+                                        <div class="addImg">
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                            alt=""
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- //下半部分 -->
+            <div class="bottom">
+              <div class="tpl-wrapper_bottom">
+                <div class="FrameLayout_Bottom_1">
+                  <div target="contentContainer" class="FrameLayout_Container">
+                    <div class="goodsshow_Container_1">
+                      <div class="goodsshow_Container_2">
+                        <div target="goodsshow_Container_3">
+                          <div class="showLeft">
+                            <!-- 	//内容左复选框 -->
+                            <div showLeft_btnContain_1 class="showLeft_btn">
+                              <div class="showLeft_btnContain_2">
+                                <div showLeft_checkbox class="showLeft_checkbox">
+                                  <div class="showCheckbox"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 内容图片 -->
+                            <div showLeft_Img_Container1 class="showLeft_Img_Container1">
+                              <div class="showLeft_Img_Container2">
+                                <div class="showLeft_Img"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="showRight">
+                            <div showRight_Container1 class="showRight_Container1">
+                              <div class="showRight_topContainer1">
+                                <div showRight_topContainer2 class="showRight_topContainer2">
+                                  <div showRight_goodsnameContain="">
+                                    <span class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
+                                  </div>
 
-																<div showRight_goodsnameContain="">
-																	<span
-																		class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
+                                  <div FrameContainer_1>
+                                    <div>
+                                      <div>
+                                        <div class="textContainer">
+                                          <span>01自然灰;0.12g</span>
+                                        </div>
+                                        <div class="downImgContainer">
+                                          <div>
+                                            <img
+                                              src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
+                                              alt=""
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ShowRight_MContain">
+                                <!-- 天猫无忧购 -->
+                                <div>
+                                  <div>
+                                    <div class="ShowRight_MtextContainer">
+                                      <div>
+                                        <span>天猫无忧购</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- 限购 -->
+                                <div class="ShowRight_MbContainer">
+                                  <div>
+                                    <div>
+                                      <div class="Limit">
+                                        <span>限购20件</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ShowRight_BContainer">
+                                  <div class="price">
+                                    <div>
+                                      <span>￥59</span>
+                                    </div>
+                                  </div>
+                                  <!-- 数量 -->
+                                  <div class="quantity">
+                                    <div class="sub">
+                                      <div>
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="num">
+                                      <div class="numImg">
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div class="numInput">
+                                        <input type="text" value="1" />
+                                      </div>
+                                    </div>
+                                    <div class="add">
+                                      <div>
+                                        <div class="addImg">
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                            alt=""
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- //下半部分 -->
+            <div class="bottom">
+              <div class="tpl-wrapper_bottom">
+                <div class="FrameLayout_Bottom_1">
+                  <div target="contentContainer" class="FrameLayout_Container">
+                    <div class="goodsshow_Container_1">
+                      <div class="goodsshow_Container_2">
+                        <div target="goodsshow_Container_3">
+                          <div class="showLeft">
+                            <!-- 	//内容左复选框 -->
+                            <div showLeft_btnContain_1 class="showLeft_btn">
+                              <div class="showLeft_btnContain_2">
+                                <div showLeft_checkbox class="showLeft_checkbox">
+                                  <div class="showCheckbox"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 内容图片 -->
+                            <div showLeft_Img_Container1 class="showLeft_Img_Container1">
+                              <div class="showLeft_Img_Container2">
+                                <div class="showLeft_Img"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="showRight">
+                            <div showRight_Container1 class="showRight_Container1">
+                              <div class="showRight_topContainer1">
+                                <div showRight_topContainer2 class="showRight_topContainer2">
+                                  <div showRight_goodsnameContain="">
+                                    <span class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
+                                  </div>
 
-																</div>
+                                  <div FrameContainer_1>
+                                    <div>
+                                      <div>
+                                        <div class="textContainer">
+                                          <span>01自然灰;0.12g</span>
+                                        </div>
+                                        <div class="downImgContainer">
+                                          <div>
+                                            <img
+                                              src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
+                                              alt=""
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ShowRight_MContain">
+                                <!-- 天猫无忧购 -->
+                                <div>
+                                  <div>
+                                    <div class="ShowRight_MtextContainer">
+                                      <div>
+                                        <span>天猫无忧购</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- 限购 -->
+                                <div class="ShowRight_MbContainer">
+                                  <div>
+                                    <div>
+                                      <div class="Limit">
+                                        <span>限购20件</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ShowRight_BContainer">
+                                  <div class="price">
+                                    <div>
+                                      <span>￥59</span>
+                                    </div>
+                                  </div>
+                                  <!-- 数量 -->
+                                  <div class="quantity">
+                                    <div class="sub">
+                                      <div>
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="num">
+                                      <div class="numImg">
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div class="numInput">
+                                        <input type="text" value="1" />
+                                      </div>
+                                    </div>
+                                    <div class="add">
+                                      <div>
+                                        <div class="addImg">
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                            alt=""
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-																<div FrameContainer_1>
-																	<div>
-																		<div>
-																			<div class="textContainer">
-																				<span>01自然灰;0.12g</span>
-																			</div>
-																			<div class="downImgContainer">
-																				<div>
-																					<img src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
-																						alt="">
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
+            <!-- //下半部分 -->
+            <div class="bottom">
+              <div class="tpl-wrapper_bottom">
+                <div class="FrameLayout_Bottom_1">
+                  <div target="contentContainer" class="FrameLayout_Container">
+                    <div class="goodsshow_Container_1">
+                      <div class="goodsshow_Container_2">
+                        <div target="goodsshow_Container_3">
+                          <div class="showLeft">
+                            <!-- 	//内容左复选框 -->
+                            <div showLeft_btnContain_1 class="showLeft_btn">
+                              <div class="showLeft_btnContain_2">
+                                <div showLeft_checkbox class="showLeft_checkbox">
+                                  <div class="showCheckbox"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 内容图片 -->
+                            <div showLeft_Img_Container1 class="showLeft_Img_Container1">
+                              <div class="showLeft_Img_Container2">
+                                <div class="showLeft_Img"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="showRight">
+                            <div showRight_Container1 class="showRight_Container1">
+                              <div class="showRight_topContainer1">
+                                <div showRight_topContainer2 class="showRight_topContainer2">
+                                  <div showRight_goodsnameContain="">
+                                    <span class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
+                                  </div>
 
-															</div>
-														</div>
-														<div class="ShowRight_MContain">
-															<!-- 天猫无忧购 -->
-															<div>
-																<div>
-																	<div class="ShowRight_MtextContainer">
-																		<div>
-																			<span>天猫无忧购</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<!-- 限购 -->
-															<div class="ShowRight_MbContainer">
-																<div>
-																	<div>
-																		<div class="Limit">
-																			<span>限购20件</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="ShowRight_BContainer">
-																<div class="price">
-																	<div>
-																		<span>￥59</span>
-
-																	</div>
-																</div>
-																<!-- 数量 -->
-																<div class="quantity">
-																	<div class="sub">
-																		<div>
-																			<div>
-																				<img
-																					src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp">
-																			</div>
-																		</div>
-																	</div>
-																	<div class="num">
-																		<div class="numImg">
-																			<div>
-																				<img
-																					src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp">
-																			</div>
-																		</div>
-																		<div class="numInput">
-																			<input type="text" value="1">
-																		</div>
-																	</div>
-																	<div class="add">
-																		<div>
-																			<div class="addImg">
-																				<img src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
-																					alt="">
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				
-					
-					<!-- //下半部分 -->
-					<div class="bottom">
-						<div class="tpl-wrapper_bottom">
-							<div class="FrameLayout_Bottom_1">
-								<div target="contentContainer" class="FrameLayout_Container">
-									<div class="goodsshow_Container_1">
-										<div class="goodsshow_Container_2">
-											<div target="goodsshow_Container_3">
-												<div class="showLeft">
-													<!-- 	//内容左复选框 -->
-													<div showLeft_btnContain_1 class="showLeft_btn">
-														<div class="showLeft_btnContain_2">
-															<div showLeft_checkbox class="showLeft_checkbox">
-																<div class="showCheckbox"></div>
-															</div>
-														</div>
-													</div>
-													<!-- 内容图片 -->
-													<div showLeft_Img_Container1 class="showLeft_Img_Container1">
-														<div class="showLeft_Img_Container2">
-															<div class="showLeft_Img"></div>
-														</div>
-													</div>
-												</div>
-												<div class="showRight">
-													<div showRight_Container1 class="showRight_Container1">
-														<div class="showRight_topContainer1">
-															<div showRight_topContainer2
-																class="showRight_topContainer2">
-
-																<div showRight_goodsnameContain="">
-																	<span
-																		class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
-
-																</div>
-
-																<div FrameContainer_1>
-																	<div>
-																		<div>
-																			<div class="textContainer">
-																				<span>01自然灰;0.12g</span>
-																			</div>
-																			<div class="downImgContainer">
-																				<div>
-																					<img src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
-																						alt="">
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-
-															</div>
-														</div>
-														<div class="ShowRight_MContain">
-															<!-- 天猫无忧购 -->
-															<div>
-																<div>
-																	<div class="ShowRight_MtextContainer">
-																		<div>
-																			<span>天猫无忧购</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<!-- 限购 -->
-															<div class="ShowRight_MbContainer">
-																<div>
-																	<div>
-																		<div class="Limit">
-																			<span>限购20件</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="ShowRight_BContainer">
-																<div class="price">
-																	<div>
-																		<span>￥59</span>
-
-																	</div>
-																</div>
-																<!-- 数量 -->
-																<div class="quantity">
-																	<div class="sub">
-																		<div>
-																			<div>
-																				<img
-																					src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp">
-																			</div>
-																		</div>
-																	</div>
-																	<div class="num">
-																		<div class="numImg">
-																			<div>
-																				<img
-																					src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp">
-																			</div>
-																		</div>
-																		<div class="numInput">
-																			<input type="text" value="1">
-																		</div>
-																	</div>
-																	<div class="add">
-																		<div>
-																			<div class="addImg">
-																				<img src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
-																					alt="">
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				<!-- //下半部分 -->
-				<div class="bottom">
-					<div class="tpl-wrapper_bottom">
-						<div class="FrameLayout_Bottom_1">
-							<div target="contentContainer" class="FrameLayout_Container">
-								<div class="goodsshow_Container_1">
-									<div class="goodsshow_Container_2">
-										<div target="goodsshow_Container_3">
-											<div class="showLeft">
-												<!-- 	//内容左复选框 -->
-												<div showLeft_btnContain_1 class="showLeft_btn">
-													<div class="showLeft_btnContain_2">
-														<div showLeft_checkbox class="showLeft_checkbox">
-															<div class="showCheckbox"></div>
-														</div>
-													</div>
-												</div>
-												<!-- 内容图片 -->
-												<div showLeft_Img_Container1 class="showLeft_Img_Container1">
-													<div class="showLeft_Img_Container2">
-														<div class="showLeft_Img"></div>
-													</div>
-												</div>
-											</div>
-											<div class="showRight">
-												<div showRight_Container1 class="showRight_Container1">
-													<div class="showRight_topContainer1">
-														<div showRight_topContainer2
-															class="showRight_topContainer2">
-				
-															<div showRight_goodsnameContain="">
-																<span
-																	class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
-				
-															</div>
-				
-															<div FrameContainer_1>
-																<div>
-																	<div>
-																		<div class="textContainer">
-																			<span>01自然灰;0.12g</span>
-																		</div>
-																		<div class="downImgContainer">
-																			<div>
-																				<img src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
-																					alt="">
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-				
-														</div>
-													</div>
-													<div class="ShowRight_MContain">
-														<!-- 天猫无忧购 -->
-														<div>
-															<div>
-																<div class="ShowRight_MtextContainer">
-																	<div>
-																		<span>天猫无忧购</span>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<!-- 限购 -->
-														<div class="ShowRight_MbContainer">
-															<div>
-																<div>
-																	<div class="Limit">
-																		<span>限购20件</span>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="ShowRight_BContainer">
-															<div class="price">
-																<div>
-																	<span>￥59</span>
-				
-																</div>
-															</div>
-															<!-- 数量 -->
-															<div class="quantity">
-																<div class="sub">
-																	<div>
-																		<div>
-																			<img
-																				src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp">
-																		</div>
-																	</div>
-																</div>
-																<div class="num">
-																	<div class="numImg">
-																		<div>
-																			<img
-																				src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp">
-																		</div>
-																	</div>
-																	<div class="numInput">
-																		<input type="text" value="1">
-																	</div>
-																</div>
-																<div class="add">
-																	<div>
-																		<div class="addImg">
-																			<img src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
-																				alt="">
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-				
-							</div>
-						</div>
-					</div>
-				</div>
-								<!-- //下半部分 -->
-								<div class="bottom">
-									<div class="tpl-wrapper_bottom">
-										<div class="FrameLayout_Bottom_1">
-											<div target="contentContainer" class="FrameLayout_Container">
-												<div class="goodsshow_Container_1">
-													<div class="goodsshow_Container_2">
-														<div target="goodsshow_Container_3">
-															<div class="showLeft">
-																<!-- 	//内容左复选框 -->
-																<div showLeft_btnContain_1 class="showLeft_btn">
-																	<div class="showLeft_btnContain_2">
-																		<div showLeft_checkbox class="showLeft_checkbox">
-																			<div class="showCheckbox"></div>
-																		</div>
-																	</div>
-																</div>
-																<!-- 内容图片 -->
-																<div showLeft_Img_Container1 class="showLeft_Img_Container1">
-																	<div class="showLeft_Img_Container2">
-																		<div class="showLeft_Img"></div>
-																	</div>
-																</div>
-															</div>
-															<div class="showRight">
-																<div showRight_Container1 class="showRight_Container1">
-																	<div class="showRight_topContainer1">
-																		<div showRight_topContainer2
-																			class="showRight_topContainer2">
-								
-																			<div showRight_goodsnameContain="">
-																				<span
-																					class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
-								
-																			</div>
-								
-																			<div FrameContainer_1>
-																				<div>
-																					<div>
-																						<div class="textContainer">
-																							<span>01自然灰;0.12g</span>
-																						</div>
-																						<div class="downImgContainer">
-																							<div>
-																								<img src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
-																									alt="">
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-								
-																		</div>
-																	</div>
-																	<div class="ShowRight_MContain">
-																		<!-- 天猫无忧购 -->
-																		<div>
-																			<div>
-																				<div class="ShowRight_MtextContainer">
-																					<div>
-																						<span>天猫无忧购</span>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<!-- 限购 -->
-																		<div class="ShowRight_MbContainer">
-																			<div>
-																				<div>
-																					<div class="Limit">
-																						<span>限购20件</span>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="ShowRight_BContainer">
-																			<div class="price">
-																				<div>
-																					<span>￥59</span>
-								
-																				</div>
-																			</div>
-																			<!-- 数量 -->
-																			<div class="quantity">
-																				<div class="sub">
-																					<div>
-																						<div>
-																							<img
-																								src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp">
-																						</div>
-																					</div>
-																				</div>
-																				<div class="num">
-																					<div class="numImg">
-																						<div>
-																							<img
-																								src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp">
-																						</div>
-																					</div>
-																					<div class="numInput">
-																						<input type="text" value="1">
-																					</div>
-																				</div>
-																				<div class="add">
-																					<div>
-																						<div class="addImg">
-																							<img src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
-																								alt="">
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-								
-											</div>
-										</div>
-									</div>
-								</div>
-												
-					<!-- //下半部分 -->
-					<div class="bottom">
-						<div class="tpl-wrapper_bottom">
-							<div class="FrameLayout_Bottom_1">
-								<div target="contentContainer" class="FrameLayout_Container">
-									<div class="goodsshow_Container_1">
-										<div class="goodsshow_Container_2">
-											<div target="goodsshow_Container_3">
-												<div class="showLeft">
-													<!-- 	//内容左复选框 -->
-													<div showLeft_btnContain_1 class="showLeft_btn">
-														<div class="showLeft_btnContain_2">
-															<div showLeft_checkbox class="showLeft_checkbox">
-																<div class="showCheckbox"></div>
-															</div>
-														</div>
-													</div>
-													<!-- 内容图片 -->
-													<div showLeft_Img_Container1 class="showLeft_Img_Container1">
-														<div class="showLeft_Img_Container2">
-															<div class="showLeft_Img"></div>
-														</div>
-													</div>
-												</div>
-												<div class="showRight">
-													<div showRight_Container1 class="showRight_Container1">
-														<div class="showRight_topContainer1">
-															<div showRight_topContainer2
-																class="showRight_topContainer2">
-
-																<div showRight_goodsnameContain="">
-																	<span
-																		class="showRight_goodsname">小奥汀双头极细持久不晕染眉笔</span>
-
-																</div>
-
-																<div FrameContainer_1>
-																	<div>
-																		<div>
-																			<div class="textContainer">
-																				<span>01自然灰;0.12g</span>
-																			</div>
-																			<div class="downImgContainer">
-																				<div>
-																					<img src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
-																						alt="">
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-
-															</div>
-														</div>
-														<div class="ShowRight_MContain">
-															<!-- 天猫无忧购 -->
-															<div>
-																<div>
-																	<div class="ShowRight_MtextContainer">
-																		<div>
-																			<span>天猫无忧购</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<!-- 限购 -->
-															<div class="ShowRight_MbContainer">
-																<div>
-																	<div>
-																		<div class="Limit">
-																			<span>限购20件</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="ShowRight_BContainer">
-																<div class="price">
-																	<div>
-																		<span>￥59</span>
-
-																	</div>
-																</div>
-																<!-- 数量 -->
-																<div class="quantity">
-																	<div class="sub">
-																		<div>
-																			<div>
-																				<img
-																					src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp">
-																			</div>
-																		</div>
-																	</div>
-																	<div class="num">
-																		<div class="numImg">
-																			<div>
-																				<img
-																					src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp">
-																			</div>
-																		</div>
-																		<div class="numInput">
-																			<input type="text" value="1">
-																		</div>
-																	</div>
-																	<div class="add">
-																		<div>
-																			<div class="addImg">
-																				<img src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
-																					alt="">
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- //内容之底边框 -->
-			<div class="settlement-bar">
-				<div class="checkbox-wrapper">
-					<label class="select-all">
-						<span class="icon"></span>
-						全选
-					</label>
-				</div>
-				<div class="submit-wrapper">
-					<span class="price-wrapper">
-						<div class="post-price">
-							合计：
-							<span class="price">￥0</span>
-
-						</div>
-					</span>
-					<span class="btn submit disabled">结算(0)</span>
-				</div>
-			</div>
-		</div>
-	</body>
-
+                                  <div FrameContainer_1>
+                                    <div>
+                                      <div>
+                                        <div class="textContainer">
+                                          <span>01自然灰;0.12g</span>
+                                        </div>
+                                        <div class="downImgContainer">
+                                          <div>
+                                            <img
+                                              src="https://gw.alicdn.com/tfs/TB1c5y0Eb2pK1RjSZFsXXaNlXXa-10-6.png?getAvatar=avatar_24x24q90_.webp"
+                                              alt=""
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ShowRight_MContain">
+                                <!-- 天猫无忧购 -->
+                                <div>
+                                  <div>
+                                    <div class="ShowRight_MtextContainer">
+                                      <div>
+                                        <span>天猫无忧购</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- 限购 -->
+                                <div class="ShowRight_MbContainer">
+                                  <div>
+                                    <div>
+                                      <div class="Limit">
+                                        <span>限购20件</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ShowRight_BContainer">
+                                  <div class="price">
+                                    <div>
+                                      <span>￥59</span>
+                                    </div>
+                                  </div>
+                                  <!-- 数量 -->
+                                  <div class="quantity">
+                                    <div class="sub">
+                                      <div>
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1I05Qe1uSBuNjSsplXXbe8pXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="num">
+                                      <div class="numImg">
+                                        <div>
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB1_d5ZMFzqK1RjSZFvXXcB7VXa-72-40.png?getAvatar=avatar_88x88q90_.webp"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div class="numInput">
+                                        <input type="text" value="1" />
+                                      </div>
+                                    </div>
+                                    <div class="add">
+                                      <div>
+                                        <div class="addImg">
+                                          <img
+                                            src="https://img.alicdn.com/tfs/TB12tL6ThTpK1RjSZFKXXa2wXXa-45-40.png?getAvatar=avatar_50x50q90_.webp"
+                                            alt=""
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //内容之底边框 -->
+        <div class="settlement-bar">
+          <div class="checkbox-wrapper">
+            <label class="select-all">
+              <span class="icon"></span>
+              全选
+            </label>
+          </div>
+          <div class="submit-wrapper">
+            <span class="price-wrapper">
+              <div class="post-price">
+                合计：
+                <span class="price">￥0</span>
+              </div>
+            </span>
+            <!-- 新增 这里是vue的用法 -->
+            <span class="btn submit disabled" @click="testMethod()">结算({{test}})</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
