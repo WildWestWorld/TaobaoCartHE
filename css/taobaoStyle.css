@@ -1,12 +1,12 @@
 /* 初始化 */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+	margin: 0;  /* 外边距:0 */
+	padding: 0;/* 内边距:0 */
+	box-sizing: border-box;/* 盒子类型:宽高从边框开算 */
 	/* //作用是方便计算宽度,盒子的实际宽度是width-padding-boder */
-	outline: :0;
+	outline: :0; /* 外框线 */
 	/* 盒子模型外的一条线 */
-	user-select: noce;
+	user-select: noce;/* 禁止复制文本 */
 	/* //禁止复制文本 */
 	-webkit-tap-highlight-color: transparent;
 }
@@ -394,6 +394,7 @@ html {
 	width: 100%;
 	height: 100%;
 
+	background-repeat: no-repeat;
 	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAMAAAAPzWOAAAAANlBMVEVHcEzMzMzNzc3V1dXOzs7Nzc3Nzc3Nzc3Nzc3Nzc3b29vMzMz////19fXu7u7a2trk5OTR0dG06x/LAAAAC3RSTlMAN84GVqG36X8jB0no5zwAAAGJSURBVFjDrVjZtoQgDFOEqUvZ/v9nRwGvy1UHMHmdMadNWmhpmlsMsleCaJqIhOrl0JRilGr++ghSciygaP8zrDxtLsVnesAnh2bYKKwzWvMMrY2zG80vdbo+/dO78Pke2vn0Y989hiFSDIYvYVI84iEYGfW0mm+hIw3JO46Yijf8CBOT6p84LP+EvWeJHI4z4O5YIofhLJhrFhnk0JwJHYQ5qTsEX7I5Zpbg0cHpThTksstIdGdBHBfBnWQZMr29cHpLaOk5z8VYxP389X6xIDtZ2l0glitgt1DaQndPPsdQVG0gMRQVzmSqU2RVhcZU8J4r4VPxq/I6O1bckg/VyrpKS6lauRqxamW9N6s/MvSeqydxoQtVvcGryaoRb3SNyop35qz20Ctzgj3UTO9JJgwJJB2IsBCLIcUGKXtIA0KOAsihhDkeIQc15MqAXF6YaxRyoWNGC8iQgxm3IIMfZgSFDMOYsRyzIGBWFczShFnfMIskZqXFLNeYNR/04AB6+gA9wpQ+B30B3RGo3Y8v7Z8AAAAASUVORK5CYII=") 0% 0% / 100% 100%;
 }
 
@@ -417,7 +418,7 @@ html {
 	background-position: center center;
 	background-size: contain;
 	background-image: url(https://img.alicdn.com/tfs/TB1uSOhKIfpK1RjSZFOXXa6nFXa-11-18.png_24x24q90_.webp);
-	;
+	
 }
 
 [target=arrowImg] {
@@ -453,6 +454,23 @@ html {
 
 }
 
+.FrameLayout_Container{
+	position: relative;
+	display: flex;
+	align-self: flex-start;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin: 0px 12px;
+	border-radius:  0 0 12px 12px;
+	background-color: rgb(255, 255, 255);
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	min-width: calc((100% - 12px) - 12px);
+	height: 165px;
+	left: 0;
+	top: 0;
+}
 [target=contentContainer] {
 	position: relative;
 	display: flex;
@@ -460,12 +478,12 @@ html {
 	overflow: hidden;
 	box-sizing: border-box;
 	margin: 0px 12px;
-	border-radius: 0px 0px 12px 12px;
+	border-radius: 0px;
 	background-color: rgb(255, 255, 255);
 	padding-left: 0;
 	padding-right: 0;
 	width: 100%;
-	min-width: calc((100%-12px)-12px);
+	min-width: calc((100% - 12px) - 12px);
 	height: 165px;
 	left: 0;
 	top: 0;
